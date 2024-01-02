@@ -1,0 +1,11 @@
+:root {
+  --colour-dark-bkg: #32323c;
+  --colour-dark-font: #fdfafa;
+  --colour-dark-acc1: #ff6605;
+  --colour-dark-acc2: #ab0000;
+
+  --colour-light-bkg: #fdfafa;
+  --colour-light-font: #32323c;
+  --colour-light-acc1: #ff8d2d;
+  --colour-light-acc2: #d20000;
+}

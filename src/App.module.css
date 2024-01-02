@@ -1,0 +1,29 @@
+@import './vars.css';
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: var(--colour-dark-bkg);
+    color: var(--colour-dark-font);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.0rem;
+    padding-left: 2.0rem;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: var(--colour-dark-bkg);
+    color: var(--colour-dark-font);
+    width: 100%;
+    box-sizing: border-box;
+}
