@@ -1,30 +1,34 @@
 import React from 'react';
 import logo from './logo.svg';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './App.css';
 
 
-const App: React.FC<{}> = ({}) => {
+const Index: React.FC<{}> = ({}) => {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          yar!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>twerking hard</p>
     </div>
   );
 }
+
+const Blah: React.FC<{}> = ({}) => {
+
+  return (
+    <div className="App">
+      <p>blah</p>
+    </div>
+  );
+}
+
+
+const App: React.FC<{}> = ({}) =>
+  <BrowserRouter>
+    <Routes>
+      <Route path="" element={<Index/>}/>
+      <Route path="/blah" element={<Blah/>}/>
+    </Routes>
+  </BrowserRouter>
 
 export default App;
