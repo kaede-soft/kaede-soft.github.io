@@ -1,5 +1,9 @@
 @import './vars.css';
 
+a {
+    text-decoration: none;
+}
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -7,6 +11,52 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    background-color: var(--colour-light-bkg);
+}
+
+.index {
+    width: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1.0rem;
+}
+
+.content {
+    width: 60%;
+    padding: 1.0rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex-grow: 1;
+    overflow-y: scroll;
+    overflow-x: wrap;
+    height: 100%;
+}
+
+p {
+    font-family: 'jota'
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 80%;
+  }
+
+  .index{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .content {
+    width: 90%;
+  }
+
+  .index{
+    width: 90%;
+  }
 }
 
 .header {
@@ -15,9 +65,9 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 1.0rem;
-    padding-left: 2.0rem;
+    justify-content: center;
+    gap: 2.0rem;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
 
@@ -25,5 +75,11 @@
     background-color: var(--colour-dark-bkg);
     color: var(--colour-dark-font);
     width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0.5rem;
     box-sizing: border-box;
 }

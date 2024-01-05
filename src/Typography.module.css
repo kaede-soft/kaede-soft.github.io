@@ -1,0 +1,48 @@
+@import './vars.css';
+
+/* colours */
+.col_dark {
+    color: var(--colour-light-font);
+}
+
+.col_dark:hover {
+    color: var(--colour-dark-acc1);
+}
+
+.col_light {
+    color: var(--colour-dark-font);
+}
+
+.col_light:hover {
+    color: var(--colour-light-acc1);
+}
+
+.col_highlighted {
+    color: var(--colour-dark-acc1);
+}
+
+.col_highlighted:hover {
+    color: var(--colour-dark-acc1);
+}
+
+.heading {
+    font-size: 2.0rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .heading {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading {
+    font-size: 1.0rem;
+  }
+}

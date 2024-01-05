@@ -1,0 +1,1 @@
+export const nStyles = (...styles: string[]) => styles.join(" ");
