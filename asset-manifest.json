@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kaede-soft.github.io/static/css/main.d8e35964.css",
-    "main.js": "/kaede-soft.github.io/static/js/main.6c81ccba.js",
+    "main.js": "/kaede-soft.github.io/static/js/main.75a2b1af.js",
     "static/js/787.2b9f14f3.chunk.js": "/kaede-soft.github.io/static/js/787.2b9f14f3.chunk.js",
     "static/media/expletussans-variablefont_wght-webfont.woff": "/kaede-soft.github.io/static/media/expletussans-variablefont_wght-webfont.8f23c9b12efdad93cf03.woff",
     "static/media/expletussans-variablefont_wght-webfont.woff2": "/kaede-soft.github.io/static/media/expletussans-variablefont_wght-webfont.bd088931cb7ecb98fd66.woff2",
     "index.html": "/kaede-soft.github.io/index.html",
     "main.d8e35964.css.map": "/kaede-soft.github.io/static/css/main.d8e35964.css.map",
-    "main.6c81ccba.js.map": "/kaede-soft.github.io/static/js/main.6c81ccba.js.map",
+    "main.75a2b1af.js.map": "/kaede-soft.github.io/static/js/main.75a2b1af.js.map",
     "787.2b9f14f3.chunk.js.map": "/kaede-soft.github.io/static/js/787.2b9f14f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e35964.css",
-    "static/js/main.6c81ccba.js"
+    "static/js/main.75a2b1af.js"
   ]
 }
